@@ -1,6 +1,6 @@
 {
   "name": "@yanggwangseong/nestjs-passport-naver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Naver strategy for Passport in Nestjs",
   "keywords": [
     "nestjs",
@@ -14,6 +14,7 @@
   ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "type": "module",
   "scripts": {
     "build": "rimraf build && tsc -p ./tsconfig.build.json",
     "test": "echo \"Error: no test specified\" && exit 1"
