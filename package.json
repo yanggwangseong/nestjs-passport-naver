@@ -1,6 +1,6 @@
 {
   "name": "@yanggwangseong/nestjs-passport-naver",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Naver strategy for Passport in Nestjs",
   "keywords": [
     "nestjs",
