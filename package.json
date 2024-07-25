@@ -12,8 +12,8 @@
     "oauth",
     "oauth2"
   ],
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "rimraf build && tsc -p ./tsconfig.build.json",
