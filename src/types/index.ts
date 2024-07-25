@@ -1,3 +1,5 @@
+import { StrategyOptions, VerifyCallback } from "passport-oauth2";
+
 export type PassportProfileBody = {
   resultcode: string;
   message: string;
@@ -32,3 +34,24 @@ export type Profile = {
   _raw?: string | Buffer;
   _json: string;
 };
+
+export type constructorSuperOptions = StrategyOptions;
+
+export interface NaverStrategyValidate {
+  validate(
+    accessToken: string,
+    refreshToken: string,
+    profile: Profile,
+    done: VerifyCallback
+  ): Promise<void>;
+}
+
+export interface NaverStrategyValidateWithRequest {
+  validate(
+    req: Request,
+    accessToken: string,
+    refreshToken: string,
+    profile: Profile,
+    done: VerifyCallback
+  ): Promise<void>;
+}
