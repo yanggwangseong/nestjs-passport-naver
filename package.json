@@ -1,0 +1,39 @@
+{
+  "name": "@yanggwangseong/nestjs-passport-naver",
+  "version": "0.0.1",
+  "description": "Naver strategy for Passport in Nestjs",
+  "keywords": [
+    "nestjs",
+    "nestjs-passport-naver",
+    "passport-naver",
+    "naver",
+    "authentication",
+    "authorization",
+    "oauth",
+    "oauth2"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf build && tsc -p ./tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "yanggwangseong",
+    "email": "soaw83@gmail.com",
+    "url": "https://github.com/yanggwangseong"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanggwangseong/nestjs-passport-naver.git"
+  },
+  "devDependencies": {
+    "@types/passport-oauth2": "^1.4.17",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "passport-oauth2": "^1.8.0"
+  }
+}
