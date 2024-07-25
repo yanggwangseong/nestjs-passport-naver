@@ -14,7 +14,6 @@
   ],
   "main": "build/index.js",
   "types": "build/index.d.ts",
-  "type": "module",
   "scripts": {
     "build": "rimraf build && tsc -p ./tsconfig.build.json",
     "test": "echo \"Error: no test specified\" && exit 1"
