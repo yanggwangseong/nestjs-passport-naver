@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./build" /* Specify an output folder for all emitted files. */
+    "outDir": "./dist" /* Specify an output folder for all emitted files. */
   },
   "extends": "./tsconfig.json",
   "include": ["./src"],
